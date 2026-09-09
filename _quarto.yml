@@ -10,7 +10,7 @@ website:
     border: false
   search:
     location: sidebar
-  repo-url: https://github.com/lmu-osc/code-publishing
+  repo-url: https://github.com/fkohrt/code-publishing
   repo-actions: [edit, issue]
   back-to-top-navigation: false
   page-navigation: true
@@ -25,11 +25,11 @@ website:
         text: Home
     tools:
       - icon: github
-        menu:
+        # menu:
           - text: Source Code
-            url:  https://github.com/lmu-osc/code-publishing
+            url:  https://github.com/fkohrt/code-publishing
           - text: Report a Bug
-            url:  https://github.com/lmu-osc/code-publishing/issues
+            url:  https://github.com/fkohrt/code-publishing/issues
       - icon: house-heart
         url: https://www.osc.uni-muenchen.de/
   sidebar:
@@ -54,8 +54,6 @@ format:
       sidebar-width: 300px
     mermaid:
       theme: neutral
-    include-in-header:
-      - file: matomo_analytics.html
 
 csl: apa.csl
 bibliography: literature.bib
