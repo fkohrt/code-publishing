@@ -29,6 +29,7 @@ keywords: [penguins, reproducibility, minimal example]
 bibliography: Bibliography.bib
 format:
   pdf:
+    pdf-engine: lualatex
     documentclass: scrartcl
     papersize: a4
 ---

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>contributing – Code Publishing Tutorial (Short version)</title>
+<title>contributing – Code Publishing Tutorial</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -81,7 +81,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-246ab2cf33138a90f884b07186797933.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-1b61141437a5962cd4e12cdd92d5c859.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -108,29 +108,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-<!-- Matomo -->
-<script>
-if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
-  var _paq = window._paq = window._paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="https://www.analytics.osc.lmu.de/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '8']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
-}
-</script>
-<!-- End Matomo Code -->
 
 
-<link rel="stylesheet" href="https://raw.githubusercontent.com/lmu-osc/branding-resources/refs/heads/main/lmu-osc-styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed quarto-light">
+<body class="nav-sidebar floating nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -138,7 +120,7 @@ if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Code Publishing Tutorial (Short version)</span>
+    <span class="navbar-title">Code Publishing Tutorial</span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -163,12 +145,12 @@ if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
       <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-github"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
-            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/lmu-osc/code-publishing">
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/fkohrt/code-publishing">
             Source Code
             </a>
           </li>
           <li>
-            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/lmu-osc/code-publishing/issues">
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/fkohrt/code-publishing/issues">
             Report a Bug
             </a>
           </li>
@@ -195,7 +177,7 @@ if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
@@ -218,13 +200,13 @@ if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./copyright.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Sharing work of others: Copyright</span></a>
+ <span class="menu-text">Copyright</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./data.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Add Data and Data Dictionary</span></a>
+ <span class="menu-text">Add Data</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -235,13 +217,13 @@ if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./choose-license.html" class="sidebar-item-text sidebar-link">
+  <a href="./choose_license.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Choose a License</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./make-readme.html" class="sidebar-item-text sidebar-link">
+  <a href="./make_readme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Make a README</span></a>
   </div>
 </li>
@@ -251,35 +233,6 @@ if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
  <span class="menu-text">Archive Your Project</span></a>
   </div>
 </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">In-depth material</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./in_depth_material/introduction_copyright.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction to Copyright and Licensing</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./in_depth_material/copyright-conditions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Copyright Conditions</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./in_depth_material/data_dic_generation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Automatic Generation of Data Dictionaries</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
     </ul>
     </div>
 </nav>
@@ -294,7 +247,7 @@ if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
   <ul>
   <li><a href="#contributing-notes" id="toc-contributing-notes" class="nav-link active" data-scroll-target="#contributing-notes">Contributing Notes</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/lmu-osc/code-publishing/edit/main/CONTRIBUTING.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/lmu-osc/code-publishing/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/fkohrt/code-publishing/edit/main/CONTRIBUTING.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/fkohrt/code-publishing/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
@@ -309,7 +262,7 @@ if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
 <li><p>Make screenshots in high resolution by temporarily increasing the font scaling factor in your OS and using a large display.</p></li>
 <li><p>Limit the width of images and center them, for example, as follows:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode md code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="al">![](images/my_image.png)</span>{width=500px fig-align="center"}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
-<li><p>Annotate code blocks with <code>filename="Terminal"</code> and <code>filename="R Console"</code> to differentiate Bash and R that should be entered by the user (if there is no file from which the code is an excerpt).</p></li>
+<li><p>Annotate code blocks with <code>filename="Terminal"</code> and<code>filename="Console"</code> to differentiate Bash and R that should be entered by the user (if there is no file from which the code is an excerpt).</p></li>
 <li><p>Put optional content into a collapsed note.</p></li>
 <li><p>Put important content into warning.</p></li>
 <li><p>hierarchy of callouts</p>
@@ -334,8 +287,8 @@ if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
 <li>Use <a href="https://pandoc.org/MANUAL.html#extension-footnotes">regular footnotes</a> rather than <a href="https://pandoc.org/MANUAL.html#extension-inline_notes">inline footnotes</a> to increase the readability of markdown (except for short notes or at the end of lines).</li>
 <li>Use <a href="https://pandoc.org/MANUAL.html#reference-links">reference links</a> rather than <a href="https://pandoc.org/MANUAL.html#inline-links">inline links</a> to increase the readability of markdown (except for short links or at the end of a line).</li>
 </ul></li>
-<li><p>If the (R package/system) dependencies that are required to work through the tutorial change, make sure to adjust the respective section in <code>make-readme.qmd</code> accordingly.</p></li>
-<li><p>When making significant contributions, add people to the <code>CITATION.cff</code> file and mention them in <code>about.qmd</code>. Also adjust <code>choose-license.qmd</code>, <code>_01_Example/Manuscript.qmd</code>, and <code>LICENSE.txt</code> where necessary.</p></li>
+<li><p>If the (R package/system) dependencies that are required to work through the tutorial change, make sure to adjust the respective section in <code>make_readme.qmd</code> accordingly.</p></li>
+<li><p>When making significant contributions, add people to the <code>CITATION.cff</code> file and mention them in <code>about.qmd</code>. Also adjust <code>choose_license.qmd</code>, <code>_01_Example/Manuscript.qmd</code>, and <code>LICENSE.txt</code> where necessary.</p></li>
 <li><p>Keep usage of terms consistent, for example:</p>
 <ul>
 <li>Always write <em>data dictionary</em> or always write <em>codebook</em> (but don’t mix).
@@ -431,7 +384,7 @@ if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/lmu-osc\.github\.io\/code-publishing\/");
+        var filterRegex = new RegExp("https:\/\/fkohrt\.github\.io\/code-publishing\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -766,7 +719,7 @@ if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
     </div>   
     <div class="nav-footer-center">
 <p>A recommended citation and license information for this tutorial are provided on the <a href="./about.html">about page</a>.</p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/lmu-osc/code-publishing/edit/main/CONTRIBUTING.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/lmu-osc/code-publishing/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/fkohrt/code-publishing/edit/main/CONTRIBUTING.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/fkohrt/code-publishing/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
