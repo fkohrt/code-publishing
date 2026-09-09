@@ -25,7 +25,7 @@ website:
         text: Home
     tools:
       - icon: github
-        # menu:
+        menu:
           - text: Source Code
             url:  https://github.com/fkohrt/code-publishing
           - text: Report a Bug
